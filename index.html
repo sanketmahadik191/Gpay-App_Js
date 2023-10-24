@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>G PAy</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="start">
+            <h1 class="head">G Pay</h1>
+            <button class="pay-now">Pay</button>
+        </div>
+        <div class="payment">
+            <div class="nav">
+                <h1 class="navbar">Make Payment</h1>
+            </div>
+            <form action="">
+                <div class="box">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" placeholder="Enter Name or Number" required />
+                </div>
+                <div class="box">
+                    <label for="amount">Amount:</label>
+                    <input type="number" id="amount" placeholder="Enter amount" min="1" step="0.01" required />
+                </div>
+                <button class="pay">pay</button>
+            </form>
+            <div class="result"></div>
+            <div class="payment_status">
+                Payment processing...
+            </div>
+        </div>
+        <div class="top"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
